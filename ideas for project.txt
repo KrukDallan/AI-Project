@@ -1,0 +1,47 @@
+-Car sharing as a complement to public transportation:
+	-at nighttime
+	-where public transportation is scarce
+	-to reach train or bus stations (intermodal transportation)
+-Infrastructures ready for autonomous vehicles but suitable to conventional cars
+
+Car sharing may not be cost-effective: how about ride-sharing?
+	-a trust-based system (ride with friends of friends)
+	-integration with computational social choice?
+	-some incentives are required (lowered taxes on vehicle ownership?)
+
+How can it be “useful for people”?
+	-impact on sustainability by reducing traffic
+	-impact on rural area where transportation is scarce 
+
+How about carpooling (e.g. BlaBlaCar)? 
+Different from ride-sharing; the least is a service on demand (similar to taxi/uber)
+
+How can carpooling / ride-sharing fit with AI? 
+	-operational research models to optimize the trips
+	-Machine learning models to rank list of drivers and riders (e.g: logistic regression model to estimate the likelihood of users 	-sending/accepting offers
+	-Stable matching 
+
+1) integrazione dei due moduli
+	a) euristiche + pathfinding/TSP
+	b) matching w/ preferences
+
+Grafo di partenza: province di VE + PD
+
+Driver: pubblica il percorso che farà e l'orario
+Rider: inseriscono la propria posizione e l'orario di arrivo previsto
+Funzione euristica dà punteggio al driver se passa per i punti previsti
+
+Limite di k persone (parametro inserito dal driver) per ride
+
+Filtro degli utenti sulla base di un "intorno" circolare sul grafo
+
+fasi:
+calcolo percorso ottimo sulla mappa
+filtrare i rider sulla base della distanza dal percorso ottimo (soglia fissa es. 10 km)
+ripetere la ricerca con una funzione obiettivo differente (minimizza distanza + massimizza n° di passeggeri). 
+funzione dei "costi" da minimizzare: per ogni passeggero raccolto c'è uno "sconto" fisso
+
+Una cosa che si può aggiungere in una seconda fase: Preferenze del driver cambiano la funzione obiettivo (meno tempo di percorrenza vs + rider)
+
+Sconto dipende non solo dalla distanza ma anche dalla reputazione dell'utente
+
