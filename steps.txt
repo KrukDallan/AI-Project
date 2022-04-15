@@ -1,0 +1,25 @@
+1) parsing dei json
+
+2) stampare coordinate nodi su file di output
+
+3) generare drivers:
+	- (coordinate) nodo di partenza
+	- (coordinate) nodo di arrivo
+	- orario?
+	- posti disponibili
+	- delay
+	- preferenze?
+
+4) per ogni driver generare shortest path
+
+5) generare riders:
+	- (coordinate) nodo di partenza
+	- (coordinate) nodo di arrivo
+	- orario?
+	- preferenze? 
+
+6) stable matching drivers&riders
+
+7) stampare matching su file di output
+
+8) (con cplex) aggiornare i percorsi dei drivers tenendo conto dei matching
