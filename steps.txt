@@ -1,6 +1,8 @@
 1) parsing dei json
 
 2) stampare coordinate nodi su file di output
+	Formato: "numero_nodo" "coordinata_x" "coordinata_y"
+	(i.e. 1 1650.023 2490.988)
 
 3) generare drivers:
 	- (coordinate) nodo di partenza
