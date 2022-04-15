@@ -24,4 +24,5 @@
 
 7) stampare matching su file di output
 
-8) (con cplex) aggiornare i percorsi dei drivers tenendo conto dei matching
+8) (con cplex) aggiornare i percorsi dei drivers tenendo conto dei matching 
+	FUNZIONE OBIETTIVO??
