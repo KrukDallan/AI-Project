@@ -1,6 +1,6 @@
 DRIVERS : 30
 DRIVER1
-NEIGHBORHOOD_DIM : 200 # after NEIGHBORHOOD_DIM there are all the nodes in the NEIGHBORHOOD.
+1NEIGHBORHOOD_DIM : 200 # after NEIGHBORHOOD_DIM there are all the nodes in the NEIGHBORHOOD.
 0 12.53 45.46
 1 12.54 45.47
 2 12.52 45.46
@@ -8,7 +8,7 @@ NEIGHBORHOOD_DIM : 200 # after NEIGHBORHOOD_DIM there are all the nodes in the N
 4 12.68 45.51
 5 12.67 45.57
 ... # up to NEIGHBORHOOD_DIM
-ROADS #all the roads connecting nodes appearing above
+1ROADS #all the roads connecting nodes appearing above
 1 0
 0 2
 3 4
@@ -18,7 +18,7 @@ ROADS #all the roads connecting nodes appearing above
 7 8
 ...
 DRIVER1_PATH
-PATH_DIM : 23
+1PATH_DIM : 23
 5
 12
 21
@@ -27,16 +27,16 @@ PATH_DIM : 23
 RIDER1_NODE # index of the node in the NEIGHBORHOOD in which the matched rider is
 2
 DRIVER2
-NEIGHBORHOOD_DIM : 210
+2NEIGHBORHOOD_DIM : 210
 0 21.53 44.46
 1 13.54 47.47
 ... # up to NEIGHBORHOOD_DIM
-ROADS 
+2ROADS 
 1 0
 0 2
 ...
 DRIVER2_PATH
-PATH_DIM : 30
+2PATH_DIM : 30
 6
 13
 191
